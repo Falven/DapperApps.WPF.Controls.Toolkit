@@ -1,0 +1,29 @@
+﻿<!--
+    Copyright (c) Dapper Apps.  All rights reserved.
+    Use of this sample source code is subject to the terms of the Dapper Apps license 
+    agreement under which you licensed this sample source code and is provided AS-IS.
+    If you did not accept the terms of the license agreement, you are not authorized 
+    to use this sample source code.  For the terms of the license, please see the 
+    license agreement between you and Dapper Apps.
+  
+    To see the article about this app, visit http://www.dapper-apps.com/DapperToolkit
+-->
+
+<ResourceDictionary
+    x:Class="PortalVoice.Views.Graph"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:controls="clr-namespace:DapperApps.WPF.Controls">
+
+    <Style TargetType="controls:Graph">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="controls:Graph">
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
